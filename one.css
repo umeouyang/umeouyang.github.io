@@ -1,0 +1,45 @@
+body{
+    font-family: m-plus-rounded-2p,sans-serif;
+font-weight: 200;
+font-style: normal;
+}
+
+h6{
+    color: #939393;
+    letter-spacing: 0.5mm;
+
+}
+
+.breadcrumb__sep{
+    color: #1c1c1c;
+}
+
+.carousel{
+    width: 480px;
+    height: 480px;
+}
+
+h2{
+    color: black;
+    letter-spacing: 1mm;
+}
+
+h4{
+    color: black;
+    letter-spacing: 1.5mm; 
+}
+
+h5{
+    color: #666666;
+    letter-spacing: 1.5mm;  
+}
+
+.selector-wrapper select{
+    border-color: #939393;
+    background-color: #fff;
+    color:#303030;
+    width: 180px;
+    height: 30px;
+}
+
+

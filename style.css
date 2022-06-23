@@ -1,0 +1,94 @@
+body{
+    font-family: m-plus-rounded-2p,sans-serif;
+font-weight: 200;
+font-style: normal;
+}
+
+figure{
+    color:#423730;
+}
+
+.slider_container {
+    margin: 30px auto;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    border: 10px solid;    
+    border-color: #f7f4f0;
+    border-bottom-width: 10px;
+    background-color: #fff;
+    box-shadow: #666 0 0 5px;
+}
+
+.slider_container div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.slider_container div {
+    -webkit-animation: round 15s linear infinite;
+            animation: round 15s linear infinite;
+}
+
+@-webkit-keyframes round {
+    4% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 0 - 1秒 淡入*/
+    }
+    12% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 1- 3秒靜止*/
+    }
+    24% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        /* 秒淡出*/
+    }
+}
+@keyframes round {
+    4% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 0 - 1秒 淡入*/
+    }
+    12% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 1- 3秒靜止*/
+    }
+    24% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        /* 5-6秒淡出*/
+    }
+}
+
+.slider_container div:nth-child(5) {
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+}
+
+.slider_container div:nth-child(4) {
+    -webkit-animation-delay: 3s;
+            animation-delay: 3s;
+}
+
+.slider_container div:nth-child(3) {
+    -webkit-animation-delay: 6s;
+            animation-delay: 6s;
+}
+
+.slider_container div:nth-child(2) {
+    -webkit-animation-delay: 9s;
+            animation-delay: 9s;
+}
+
+.slider_container div:nth-child(1) {
+    -webkit-animation-delay: 12s;
+            animation-delay: 12s;
+}

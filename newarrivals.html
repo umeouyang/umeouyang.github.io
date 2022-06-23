@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camii</title>
+    <script>
+        (function (d) {
+            var config = {
+                kitId: 'pvh5nyq',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="products.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark" style="background-color: rgb(216,208,193)">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <button type="button" class="btn position-relative">
+                    <img src="cart.png" width="40" height="40">
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                        99+
+                        <span class="visually-hidden">unread messages</span>
+                    </span>
+                </button></a>
+            <a class="navbar-brand" href="index.html"><img src="logo.png" width="180" height="30"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel" style="background-color: rgb(66,55,48)">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="smile.png" width="110" height="30">
+                    </h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link " href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="aboutus.html">About Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" aria-current="page" href="#"
+                                id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Shop
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                                <li><a class="dropdown-item" href="newarrivals.html">New Arrivals</a></li>
+                                <li><a class="dropdown-item" href="instock.html">In Stock</a></li>
+                                <li><a class="dropdown-item" href="allproducts.html">All Products</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <br>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-secondary" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <br>
+    <figure class="text-center">
+        <blockquote class="blockquote">
+            <h4>新上架 New Arrivals</h4>
+        </blockquote>
+    </figure>
+
+    <div class="row justify-content-center">
+        <div class="col-6">
+            <select class="form-select" aria-label="Default select example">
+                <option selected>排列方式</option>
+                <option value="1">價錢：由高至低</option>
+                <option value="2">價錢：由低至高</option>
+                <option value="3">日期：由新至舊</option>
+                <option value="3">日期：由舊至新</option>
+            </select>
+        </div>
+    </div>
+    <br><br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <a href="new1.html" style="text-decoration:none;"><img src="new1.jpg" width="250" height="250"><br><br>
+                    <h6>春天小花蠟燭 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$390</h6></a>
+            </div>
+            <div class="col-sm-3">
+                <a href="new2.html" style="text-decoration:none;"><img src="new2.jpg" width="250" height="250"><br><br>
+                    <h6>素色拱門蠟燭 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$350</h6></a>
+            </div>
+            <div class="col-sm-3">
+                <a href="new3.html" style="text-decoration:none;"><img src="new3.jpg" width="250" height="250"><br><br>
+                    <h6>心型咖啡杯蠟燭 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$460</h6></a>
+            </div>
+            <div class="col-sm-3">
+                <a href="new4.html" style="text-decoration:none;"><img src="new4.jpg" width="250" height="250"><br><br>
+                    <h6>窗戶造型蠟燭 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$550</h6></a>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <a href="new5.html" style="text-decoration:none;"><img src="new5.jpg" width="250" height="250"><br><br>
+                    <h6>熊熊雞蛋糕(2入) &nbsp;&nbsp;&nbsp;&nbsp;$300</h6></a>
+            </div>
+            <div class="col-sm-3">
+                <a href="new6.html" style="text-decoration:none;"><img src="new6.jpg" width="250" height="250"><br><br>
+                    <h6>油畫風蠟燭 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$350</h6></a>
+            </div>
+            <div class="col-sm-3">
+                <a href="new7.html" style="text-decoration:none;"><img src="new7.jpg" width="250" height="250"><br><br>
+                    <h6>三角色塊蠟燭 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$390</h6></a>
+            </div>
+            <div class="col-sm-3">
+                <a href="new8.html" style="text-decoration:none;"><img src="new8.jpg" width="250" height="250"><br><br>
+                    <h6>小夜燈蠟燭 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$450</h6></a>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+<center>
+           <div style="background-color:#d8d0c1;">
+            <br>
+            <img src="contact.png" width="400" height="30">
+            <br><br><br>
+            <a href="https://www.instagram.com/camii_candle/" style="text-decoration:none;"><img src="instagram.png" width="50" height="50">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="https://page.line.me/920tkksx" style="text-decoration:none;"><img src="line.png"width="50" height="50">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="https://www.facebook.com/Camii-103831278714728/" style="text-decoration:none;"><img src="facebook.png" width="50" height="50"></a>
+            <br><br><br>
+            <img src="since.png" width="300" height="30">
+            <br><br>
+        </div>
+    </center> 
+
+
+</body>
+</html>

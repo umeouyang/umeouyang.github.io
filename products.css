@@ -1,0 +1,16 @@
+body{
+    font-family: m-plus-rounded-2p,sans-serif;
+font-weight: 200;
+font-style: normal;
+}
+
+.container{
+    justify-content: space-around;
+}
+
+h6{
+    justify-content: space-around;
+    color: black;
+    letter-spacing: 1mm;
+}
+

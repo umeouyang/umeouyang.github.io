@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camii</title>
+    <script>
+        (function(d) {
+          var config = {
+            kitId: 'pvh5nyq',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+      </script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark" style="background-color: rgb(216,208,193)">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <button type="button" class="btn position-relative">
+                    <img src="cart.png" width="40" height="40">
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                        99+
+                        <span class="visually-hidden">unread messages</span>
+                    </span>
+                </button></a>
+            <a class="navbar-brand" href="index.html"><img src="logo.png" width="180" height="30"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel" style="background-color: rgb(66,55,48)">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="smile.png" width="110" height="30">
+                    </h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link " href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="aboutus.html">About Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Shop
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                                <li><a class="dropdown-item" href="newarrivals.html">New Arrivals</a></li>
+                                <li><a class="dropdown-item" href="instock.html">In Stock</a></li>
+                                <li><a class="dropdown-item" href="allproducts.html">All Products</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <br>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-secondary" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <br>
+    <figure class="text-center">
+        <blockquote class="blockquote">
+            <p>100% handmade candles</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+            studio from <cite title="Source Title">Taiwan</cite>
+        </figcaption>
+    </figure>
+
+    <div class="slider_container">
+        <div>
+            <img src="about1.jpg" width="480px" height="480px" alt="pure css3 slider" />
+        </div>
+        <div>
+            <img src="about2.jpg" width="480px" height="480px" alt="pure css3 slider" />
+        </div>
+        <div>
+            <img src="about3.jpg" width="480px" height="480px" alt="pure css3 slider" />
+        </div>
+        <div>
+            <img src="about4.jpg" width="480px" height="480px" alt="pure css3 slider" />
+        </div>
+        <div>
+            <img src="about5.jpg" width="480px" height="480px" alt="pure css3 slider" />
+        </div>
+    </div>
+
+    <center>
+        <font size="4">candles, aroma, meaningful, memorable, ineffable</font><br><br>
+        <font size="2">本賣場販售純手工製作的天然大豆蠟商品</font><br>
+        <font size="2">持有SDCA/KCCA/CLAB執照，請放心購買 ☻</font>
+        <br><br><br>
+
+        <font size="4">任何疑問或建議歡迎填寫下方表單💬</font>
+        <br><br>
+
+        <div class="row justify-content-center">
+            <div class="col-2">
+                <input type="text" class="form-control" placeholder="Instagram " aria-label="Instagram ">
+            </div>
+            <div class="col-2">
+                <input type="text" class="form-control" placeholder="LINE ID" aria-label="LINE ID">
+            </div>
+            <div class="col-5">
+                <input type="text" class="form-control" placeholder="E-maill" aria-label="E-maill">
+            </div>
+            <div class="col-9">
+                <label for="exampleFormControlTextarea1" class="form-label"></label>
+                <textarea class="form-control" placeholder="You can tell me anything! 🖤"
+                    aria-label="You can tell me anything! 🖤" rows="6"></textarea>
+            </div>
+        </div>
+        <br><br>
+
+        <div style="background-color:#d8d0c1;">
+            <br>
+            <img src="contact.png" width="400" height="30">
+            <br><br><br>
+            <a href="https://www.instagram.com/camii_candle/" style="text-decoration:none;"><img src="instagram.png" width="50" height="50">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="https://page.line.me/920tkksx" style="text-decoration:none;"><img src="line.png"width="50" height="50">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="https://www.facebook.com/Camii-103831278714728/" style="text-decoration:none;"><img src="facebook.png" width="50" height="50"></a>
+            <br><br><br>
+            <img src="since.png" width="300" height="30">
+            <br><br>
+        </div>
+
+    </center>
+</body>
+
+</html>
